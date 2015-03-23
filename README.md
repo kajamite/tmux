@@ -12,3 +12,9 @@ Installation
   ```bash
   ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
   ```
+
+  Update config:
+
+  ```bash
+  tmux source-file ~/.tmux.conf
+  ```
