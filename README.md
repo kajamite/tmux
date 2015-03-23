@@ -1,3 +1,13 @@
+Prerequisites
+------------
+
+You need to have tmux installed.
+On MacOs you can use Homebrew to install tmux:
+
+```bash
+  brew install tmux
+```
+
 Installation
 ------------
 
