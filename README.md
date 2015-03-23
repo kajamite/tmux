@@ -10,11 +10,17 @@ Installation
   Copy tmux config to home:
 
   ```bash
-  ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
+  ln -s ~/.tmux/tmux.conf ~/.tmux.conf
   ```
 
   Update config:
 
   ```bash
   tmux source-file ~/.tmux.conf
+  ```
+
+  Copy binary files to your bin folder (destination folder can be different on your machine) 
+
+  ```bash
+  sudo cp ~/.tmux/bin/* /bin/ 
   ```
